@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>2D GAME</title>
+  </head>
+  <body>
+    <div class="intro">
+      <div class="intro-darker"></div>
+      <div class="enter-game">
+        <label for="user">Enter your name:</label>
+        <input type="text" name="user" id="user" value="" />
+        <div class="error-login">Insert your f***ing name</div>
+        <button id="login">PLAY</button>
+      </div>
+    </div>
+    <div class="panels">
+      <div class="question-remaining"></div>
+    </div>
+    <div class="popup-questions">
+      <h3></h3>
+      <div class="popup-options">
+        <div class="option-1"></div>
+        <div class="option-2"></div>
+        <div class="option-3"></div>
+        <div class="option-4"></div>
+      </div>
+    </div>
+    <div class="correct-animation">CORRECT!</div>
+    <div class="wrong-animation">WRONG!</div>
+    <div id="gameBox"></div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
