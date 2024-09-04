@@ -266,6 +266,262 @@ const quizData = {
       correct_answer: "Italy",
       incorrect_answers: ["Spain", "Greece", "France"],
     },
+    {
+      question: "What color do you get by mixing blue and yellow?",
+      correct_answer: "Green",
+      incorrect_answers: ["Red", "Purple", "Orange"],
+    },
+    {
+      question: "Which animal is known as the ship of the desert?",
+      correct_answer: "Camel",
+      incorrect_answers: ["Horse", "Elephant", "Lion"],
+    },
+    {
+      question: "What is the capital of Spain?",
+      correct_answer: "Madrid",
+      incorrect_answers: ["Barcelona", "Seville", "Lisbon"],
+    },
+    {
+      question:
+        "Which element is represented by the symbol 'O' on the periodic table?",
+      correct_answer: "Oxygen",
+      incorrect_answers: ["Gold", "Silver", "Iron"],
+    },
+    {
+      question: "What is the largest planet in our Solar System?",
+      correct_answer: "Jupiter",
+      incorrect_answers: ["Mars", "Saturn", "Earth"],
+    },
+    {
+      question: "Which vitamin is primarily obtained from sunlight?",
+      correct_answer: "Vitamin D",
+      incorrect_answers: ["Vitamin A", "Vitamin B", "Vitamin C"],
+    },
+    {
+      question: "Who wrote 'Macbeth'?",
+      correct_answer: "William Shakespeare",
+      incorrect_answers: ["Charles Dickens", "Jane Austen", "Leo Tolstoy"],
+    },
+    {
+      question: "What is the hardest natural substance on Earth?",
+      correct_answer: "Diamond",
+      incorrect_answers: ["Gold", "Iron", "Quartz"],
+    },
+    {
+      question: "In which continent is the Amazon Rainforest located?",
+      correct_answer: "South America",
+      incorrect_answers: ["North America", "Africa", "Asia"],
+    },
+    {
+      question: "What is the main ingredient in bread?",
+      correct_answer: "Flour",
+      incorrect_answers: ["Sugar", "Salt", "Yeast"],
+    },
+    {
+      question: "What gas do plants absorb from the atmosphere?",
+      correct_answer: "Carbon Dioxide",
+      incorrect_answers: ["Oxygen", "Nitrogen", "Hydrogen"],
+    },
+    {
+      question: "What is the longest river in the world?",
+      correct_answer: "Amazon River",
+      incorrect_answers: ["Nile River", "Yangtze River", "Mississippi River"],
+    },
+    {
+      question: "Who painted the Mona Lisa?",
+      correct_answer: "Leonardo da Vinci",
+      incorrect_answers: ["Pablo Picasso", "Vincent Van Gogh", "Michelangelo"],
+    },
+    {
+      question: "What is the chemical symbol for water?",
+      correct_answer: "H2O",
+      incorrect_answers: ["CO2", "NaCl", "O2"],
+    },
+    {
+      question: "Which planet is known as the Red Planet?",
+      correct_answer: "Mars",
+      incorrect_answers: ["Jupiter", "Saturn", "Venus"],
+    },
+    {
+      question: "What do bees collect and use to create honey?",
+      correct_answer: "Nectar",
+      incorrect_answers: ["Pollen", "Sap", "Leaves"],
+    },
+    {
+      question: "What type of animal is a frog?",
+      correct_answer: "Amphibian",
+      incorrect_answers: ["Reptile", "Mammal", "Bird"],
+    },
+    {
+      question: "What device is used to measure temperature?",
+      correct_answer: "Thermometer",
+      incorrect_answers: ["Barometer", "Altimeter", "Compass"],
+    },
+    {
+      question: "What is the capital of Australia?",
+      correct_answer: "Canberra",
+      incorrect_answers: ["Sydney", "Melbourne", "Perth"],
+    },
+    {
+      question: "Who discovered gravity when he saw a falling apple?",
+      correct_answer: "Isaac Newton",
+      incorrect_answers: [
+        "Albert Einstein",
+        "Galileo Galilei",
+        "Nicolaus Copernicus",
+      ],
+    },
+    {
+      question:
+        "What is traditionally worn by a Scottish man at formal events?",
+      correct_answer: "Kilt",
+      incorrect_answers: ["Sari", "Kimono", "Toga"],
+    },
+    {
+      question: "What is the chemical formula for table salt?",
+      correct_answer: "NaCl",
+      incorrect_answers: ["KCl", "LiCl", "MgCl2"],
+    },
+    {
+      question: "What type of tree do acorns come from?",
+      correct_answer: "Oak",
+      incorrect_answers: ["Maple", "Pine", "Birch"],
+    },
+    {
+      question: "What is sushi traditionally wrapped in?",
+      correct_answer: "Seaweed",
+      incorrect_answers: ["Rice paper", "Lettuce", "Spinach"],
+    },
+    {
+      question: "What is the smallest continent by land area?",
+      correct_answer: "Australia",
+      incorrect_answers: ["Europe", "Antarctica", "South America"],
+    },
+    {
+      question: "Which instrument is used for measuring wind speed?",
+      correct_answer: "Anemometer",
+      incorrect_answers: ["Audiometer", "Dynamometer", "Spectrometer"],
+    },
+    {
+      question: "What is the study of the weather called?",
+      correct_answer: "Meteorology",
+      incorrect_answers: ["Ecology", "Astronomy", "Geology"],
+    },
+    {
+      question: "What is the color of an emerald?",
+      correct_answer: "Green",
+      incorrect_answers: ["Red", "Blue", "Yellow"],
+    },
+    {
+      question: "Which country is known as the land of the rising sun?",
+      correct_answer: "Japan",
+      incorrect_answers: ["China", "Australia", "Thailand"],
+    },
+    {
+      question: "Which element is denoted by the chemical symbol 'N'?",
+      correct_answer: "Nitrogen",
+      incorrect_answers: ["Neon", "Nickel", "Natrium (Sodium)"],
+    },
+    {
+      question: "What musical period did Ludwig van Beethoven belong to?",
+      correct_answer: "Classical and Romantic",
+      incorrect_answers: ["Baroque", "Renaissance", "Contemporary"],
+    },
+    {
+      question: "What is the currency of Japan?",
+      correct_answer: "Yen",
+      incorrect_answers: ["Won", "Dollar", "Euro"],
+    },
+    {
+      question: "Which organ in the human body purifies the blood?",
+      correct_answer: "Kidneys",
+      incorrect_answers: ["Heart", "Lungs", "Liver"],
+    },
+    {
+      question: "What year did the Berlin Wall fall?",
+      correct_answer: "1989",
+      incorrect_answers: ["1985", "1991", "1995"],
+    },
+    {
+      question: "Who is the author of 'The Little Prince'?",
+      correct_answer: "Antoine de Saint-Exupéry",
+      incorrect_answers: [
+        "Hans Christian Andersen",
+        "Brothers Grimm",
+        "Lewis Carroll",
+      ],
+    },
+    {
+      question: "In which city would you find the Colosseum?",
+      correct_answer: "Rome",
+      incorrect_answers: ["Athens", "Istanbul", "Cairo"],
+    },
+    {
+      question: "What is the most abundant gas in the Earth's atmosphere?",
+      correct_answer: "Nitrogen",
+      incorrect_answers: ["Oxygen", "Carbon Dioxide", "Hydrogen"],
+    },
+    {
+      question: "Who painted 'Girl with a Pearl Earring'?",
+      correct_answer: "Johannes Vermeer",
+      incorrect_answers: ["Rembrandt", "Van Gogh", "Picasso"],
+    },
+    {
+      question: "Which part of the plant conducts photosynthesis?",
+      correct_answer: "Leaf",
+      incorrect_answers: ["Root", "Stem", "Flower"],
+    },
+    {
+      question: "What is the main ingredient in chocolate?",
+      correct_answer: "Cocoa",
+      incorrect_answers: ["Milk", "Sugar", "Butter"],
+    },
+    {
+      question: "Which country is known for the creation of the kilt?",
+      correct_answer: "Scotland",
+      incorrect_answers: ["Ireland", "Wales", "England"],
+    },
+    {
+      question: "What type of animal is a 'Portuguese Man O' War'?",
+      correct_answer: "Jellyfish",
+      incorrect_answers: ["Bird", "Fish", "Mammal"],
+    },
+    {
+      question: "What geometric shape is generally used for stop signs?",
+      correct_answer: "Octagon",
+      incorrect_answers: ["Hexagon", "Circle", "Square"],
+    },
+    {
+      question: "What is the name of the fairy in Peter Pan?",
+      correct_answer: "Tinker Bell",
+      incorrect_answers: ["Peter Pan", "Wendy", "Captain Hook"],
+    },
+    {
+      question: "What element does 'Au' represent on the periodic table?",
+      correct_answer: "Gold",
+      incorrect_answers: ["Silver", "Aluminum", "Oxygen"],
+    },
+    {
+      question: "What is the capital of Egypt?",
+      correct_answer: "Cairo",
+      incorrect_answers: ["Luxor", "Alexandria", "Giza"],
+    },
+    {
+      question: "What does the 'pH' scale measure?",
+      correct_answer: "Acidity or Alkalinity",
+      incorrect_answers: ["Temperature", "Pressure", "Density"],
+    },
+    {
+      question: "Which animal is an apex predator in the ocean?",
+      correct_answer: "Shark",
+      incorrect_answers: ["Dolphin", "Whale", "Octopus"],
+    },
+    {
+      question:
+        "What is the traditional number of wonders of the ancient world?",
+      correct_answer: "Seven",
+      incorrect_answers: ["Five", "Six", "Eight"],
+    },
   ],
 };
 

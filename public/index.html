@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>2D GAME</title>
+    <title>2D Quiz Game by Matteo Beu</title>
   </head>
   <body>
     <div class="intro">
@@ -12,25 +12,84 @@
       <div class="enter-game">
         <label for="user">Enter your name:</label>
         <input type="text" name="user" id="user" value="" />
-        <div class="error-login">Insert your f***ing name</div>
+        <fieldset>
+          <legend>Choose difficulty:</legend>
+          <div>
+            <input type="radio" id="easy" name="difficulty" value="easy" />
+            <label for="easy">Easy</label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              id="normal"
+              name="difficulty"
+              value="normal"
+              checked
+            />
+            <label for="normal">Normal</label>
+          </div>
+          <div>
+            <input type="radio" id="hard" name="difficulty" value="hard" />
+            <label for="hard">Hard</label>
+          </div>
+        </fieldset>
+
+        <div class="error-login">Enter your f***ing name</div>
         <button id="login">PLAY</button>
       </div>
     </div>
     <div class="panels">
+      <div id="difficulty-panel"></div>
       <div class="question-remaining"></div>
+      <div class="audio-icon">
+        <img src="images/volume_on.png" alt="" />
+      </div>
+      <div id="timer">
+        <div id="minutes"></div>
+        :
+        <div id="seconds"></div>
+        .
+        <div id="mills"></div>
+      </div>
+      <div class="tip">
+        <img src="images/lamp.png" alt="" />
+        <div>
+          Find and answer all the questions in the shortest time possible!
+        </div>
+      </div>
     </div>
     <div class="popup-questions">
       <h3></h3>
-      <div class="popup-options">
-        <div class="option-1"></div>
-        <div class="option-2"></div>
-        <div class="option-3"></div>
-        <div class="option-4"></div>
-      </div>
     </div>
     <div class="correct-animation">CORRECT!</div>
     <div class="wrong-animation">WRONG!</div>
     <div id="gameBox"></div>
+    <div id="lost">
+      <h1>you lost!</h1>
+      <div class="try_again">
+        <div>You can't be that stupid</div>
+        <button onclick="location.reload()">Try again</button>
+      </div>
+    </div>
+    <div id="won">
+      <h1>you won!</h1>
+      <div class="try_again">
+        <div>score:</div>
+        <div id="score"></div>
+        <div>in difficulty:</div>
+        <div id="score-difficulty"></div>
+        <div>Nice! But you can do better!</div>
+        <button onclick="location.reload()">Try again</button>
+      </div>
+    </div>
+    <div id="credits">
+      Developed w love by
+      <a href="https://matteobeu.com" target="_blank">Matteo Beu</a>
+    </div>
+    <audio controls loop id="audio">
+      <source src="music.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
     <script type="module" src="script.js"></script>
   </body>
 </html>
