@@ -6,8 +6,17 @@ const intro = document.querySelector(".intro");
 const button = document.getElementById("login");
 var playerName = document.getElementById("user");
 
+document.addEventListener("keydown", (e) => {
+  switch (e.key) {
+    case "Enter":
+      button.click();
+      break;
+  }
+});
+
 button.addEventListener("click", (e) => {
   e.preventDefault();
+
   const difficulty = document.querySelector(
     'input[name="difficulty"]:checked'
   ).value;
@@ -146,6 +155,8 @@ document.body.appendChild(character);
 function startGame(totalQuestions, hearts, quiz) {
   var hitPoints = hearts;
 
+  button.style.display = "none";
+
   const spawnPoint = document.querySelector(".spawn");
   spawnPoint.scrollIntoView({
     behavior: "instant",
@@ -217,6 +228,9 @@ function startGame(totalQuestions, hearts, quiz) {
               moveToNewPos(position);
             }
           }
+          break;
+        case "Enter":
+          location.reload();
           break;
       }
     }
@@ -400,7 +414,10 @@ function startGame(totalQuestions, hearts, quiz) {
     });
 
     function correctAnswerGame(newOpt, newEl) {
-      if (questionsBlock.length === 0 || questionsBlock.length === hitPoints) {
+      if (
+        questionsBlock.length === 0 ||
+        questionsBlock.length + 1 === hitPoints
+      ) {
         stopTimer();
         won();
       } else {
