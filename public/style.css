@@ -515,10 +515,10 @@ fieldset input {
   .wrong-animation {
     display: none !important;
   }
-  .lost {
+  #lost {
     display: none !important;
   }
-  .won {
+  #won {
     display: none !important;
   }
 }
