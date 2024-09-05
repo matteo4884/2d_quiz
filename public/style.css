@@ -506,4 +506,19 @@ fieldset input {
   .intro {
     display: block !important;
   }
+  .panels {
+    display: none !important;
+  }
+  .correct-animation {
+    display: none !important;
+  }
+  .wrong-animation {
+    display: none !important;
+  }
+  .lost {
+    display: none !important;
+  }
+  .won {
+    display: none !important;
+  }
 }
