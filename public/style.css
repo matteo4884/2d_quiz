@@ -470,6 +470,9 @@ fieldset input {
 #credits a {
   color: unset;
 }
+.check-mobile {
+  display: none;
+}
 @media (max-width: 1024px) {
   .check-mobile {
     position: fixed;
